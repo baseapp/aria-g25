@@ -6,6 +6,7 @@ Yocto configuration for aria-g25/Atmel at91sam9g25
 * git clone git://github.com/baseapp/meta-atmel.git
 
 * Edit conf/bblayers.conf in this repo to match yocto and meta-atmel paths
+  Also edit local.conf, see https://www.yoctoproject.org/docs/current/yocto-project-qs/yocto-project-qs.html
 
 * cd /path-to/yocto/poky; . ./oe-init-build-env /path-to/this-repo/aria-g25/
 
