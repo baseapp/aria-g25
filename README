@@ -1,0 +1,12 @@
+Yocto configuration for aria-g25/Atmel at91sam9g25
+--------------------------------------------------
+
+* Download yocto https://www.yoctoproject.org/download/yocto-project-13-poky-80 and extract
+
+* git clone git://github.com/baseapp/meta-atmel.git
+
+* Edit conf/bblayers.conf in this repo to match yocto and meta-atmel paths
+
+* cd /path-to/yocto/poky; . ./oe-init-build-env /path-to/this-repo/aria-g25/
+
+* bitbake core-image-minimal
