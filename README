@@ -3,7 +3,7 @@ Yocto configuration for aria-g25/Atmel at91sam9g25
 
 * Download yocto https://www.yoctoproject.org/download/yocto-project-13-poky-80 and extract
 
-* git clone git://github.com/baseapp/meta-atmel.git
+* git clone git://github.com/baseapp/meta-atmel.git -b yocto
 
 * Edit conf/bblayers.conf in this repo to match yocto and meta-atmel paths
   Also edit local.conf, see https://www.yoctoproject.org/docs/current/yocto-project-qs/yocto-project-qs.html
